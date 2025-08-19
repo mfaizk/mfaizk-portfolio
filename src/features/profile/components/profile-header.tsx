@@ -26,11 +26,35 @@ export function ProfileHeader() {
           viewBox="0 0 30 20"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <rect width="30" height="20" fill="#F00" />
-          <polygon
-            points="15,4 11.47,14.85 20.71,8.15 9.29,8.15 18.53,14.85"
-            fill="#FFEB00"
+          <rect width="30" height="6.67" y="0" fill="#FF9933" />
+          <rect width="30" height="6.66" y="6.67" fill="#FFFFFF" />
+          <rect width="30" height="6.67" y="13.33" fill="#138808" />
+          <circle
+            cx="15"
+            cy="10"
+            r="2.2"
+            stroke="#000080"
+            strokeWidth="0.5"
+            fill="none"
           />
+          {Array.from({ length: 24 }).map((_, i) => {
+            const angle = (i * 15 * Math.PI) / 180;
+            const x1 = 15;
+            const y1 = 10;
+            const x2 = 15 + 2.2 * Math.cos(angle);
+            const y2 = 10 + 2.2 * Math.sin(angle);
+            return (
+              <line
+                key={i}
+                x1={x1}
+                y1={y1}
+                x2={x2}
+                y2={y2}
+                stroke="#000080"
+                strokeWidth="0.2"
+              />
+            );
+          })}
         </svg>
       </div>
 
