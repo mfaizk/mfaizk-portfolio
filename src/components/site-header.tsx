@@ -11,6 +11,7 @@ import { cn } from "@/lib/utils";
 
 import { SiteHeaderMark } from "./site-header-mark";
 import { SiteHeaderWrapper } from "./site-header-wrapper";
+import { ChanhDaiMark } from "./chanhdai-mark";
 
 const BrandContextMenu = dynamic(() =>
   import("@/components/brand-context-menu").then((mod) => mod.BrandContextMenu)
@@ -38,7 +39,8 @@ export function SiteHeader() {
       >
         <BrandContextMenu>
           <Link href="/" aria-label="Home" className="[&_svg]:h-8">
-            <SiteHeaderMark />
+            {/* <SiteHeaderMark /> */}
+            <ChanhDaiMark className="h-8 w-auto sm:h-12" />
           </Link>
         </BrandContextMenu>
 
@@ -47,7 +49,7 @@ export function SiteHeader() {
         <DesktopNav items={MAIN_NAV} />
 
         <div className="flex items-center gap-2">
-          <CommandMenu posts={posts} />
+          {/* <CommandMenu posts={posts} /> */}
           <NavItemGitHub />
           <ToggleTheme />
           <MobileNav className="sm:hidden" items={MAIN_NAV} />

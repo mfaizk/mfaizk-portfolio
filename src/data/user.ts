@@ -50,5 +50,5 @@ Let’s connect and build the next generation of digital experiences`,
   // namePronunciationUrl: "https://assets.chanhdai.com/audio/chanhdai.mp3",
   keywords:
     "hire web3 frontend developer,  freelance react developer , crypto ui engineer,  faiz khan coder , blockchain frontend portfolio,  modern web developer,  nextjs + web3 developer,  frontend engineer for defi,  frontend engineer for dapps",
-  dateCreated: "2023-10-20",
+  dateCreated: "2025-09-15",
 };

@@ -17,11 +17,11 @@ export function SiteFooter() {
           Built by{" "}
           <a
             className="link"
-            href="https://x.com/iamncdai"
+            href="ihttps://github.com/mfaizk"
             target="_blank"
             rel="noopener"
           >
-            ncdai
+            mfaizk
           </a>
           . The source code is available on{" "}
           <a
@@ -35,7 +35,7 @@ export function SiteFooter() {
           .
         </p>
 
-        <div
+        {/* <div
           className={cn(
             "screen-line-before screen-line-after flex w-full before:z-1 after:z-1",
             "bg-[repeating-linear-gradient(315deg,var(--pattern-foreground)_0,var(--pattern-foreground)_1px,transparent_0,transparent_50%)] bg-size-[10px_10px] [--pattern-foreground:var(--color-edge)]/56"
@@ -78,7 +78,7 @@ export function SiteFooter() {
               <span className="sr-only">DMCA.com Protection Status</span>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="pb-[env(safe-area-inset-bottom,0px)]">
         <div className="flex h-2" />

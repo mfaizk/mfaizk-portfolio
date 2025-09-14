@@ -3,7 +3,7 @@ import type { NavItem } from "@/types/nav";
 
 export const SITE_INFO = {
   name: USER.displayName,
-  url: process.env.APP_URL || "https://chanhdai.com",
+  url: process.env.APP_URL || "https://mfaizk.netlify.app",
   ogImage: USER.ogImage,
   description: USER.bio,
   keywords: USER.keywords,
@@ -29,11 +29,12 @@ export const MAIN_NAV: NavItem[] = [
   // },
 ];
 
-export const SOURCE_CODE_GITHUB_REPO = "ncdai/chanhdai.com";
-export const SOURCE_CODE_GITHUB_URL = "https://github.com/ncdai/chanhdai.com";
+export const SOURCE_CODE_GITHUB_REPO = "mfaizk/mfaizk-portfolio";
+export const SOURCE_CODE_GITHUB_URL =
+  "https://github.com/mfaizk/mfaizk-portfolio";
 
 export const UTM_PARAMS = {
-  utm_source: "chanhdai.com",
+  utm_source: "https://mfaizk.netlify.app",
   utm_medium: "portfolio_website",
   utm_campaign: "referral",
 };

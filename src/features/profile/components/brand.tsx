@@ -52,14 +52,14 @@ export function Brand() {
         </div>
       </BrandContextMenu>
 
-      <div className="flex h-12 items-center justify-center pb-px">
+      {/* <div className="flex h-12 items-center justify-center pb-px">
         <Button variant="default" asChild>
           <Link href="/blog/chanhdai-brand">
             ChanhDai Brand
             <ArrowRightIcon />
           </Link>
         </Button>
-      </div>
+      </div> */}
     </Panel>
   );
 }
