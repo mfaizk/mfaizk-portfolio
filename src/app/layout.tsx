@@ -47,11 +47,11 @@ export const metadata: Metadata = {
   keywords: SITE_INFO.keywords,
   authors: [
     {
-      name: "ncdai",
+      name: "mfaizk",
       url: SITE_INFO.url,
     },
   ],
-  creator: "ncdai",
+  creator: "mfaizk",
   openGraph: {
     siteName: SITE_INFO.name,
     url: "/",
@@ -77,16 +77,16 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "https://assets.chanhdai.com/images/favicon.ico",
+        url: "https://avatars.githubusercontent.com/u/43818667?v=4",
         sizes: "any",
       },
       {
-        url: "https://assets.chanhdai.com/images/favicon.svg",
+        url: "https://avatars.githubusercontent.com/u/43818667?v=4",
         type: "image/svg+xml",
       },
     ],
     apple: {
-      url: "https://assets.chanhdai.com/images/apple-touch-icon.png",
+      url: "https://avatars.githubusercontent.com/u/43818667?v=4",
       type: "image/png",
       sizes: "180x180",
     },
