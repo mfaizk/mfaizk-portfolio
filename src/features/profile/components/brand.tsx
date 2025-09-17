@@ -46,7 +46,12 @@ export function Brand() {
             </div>
 
             <div className="screen-line-after flex items-center justify-center pr-8 after:z-1">
-              <ChanhDaiWordmark className="h-6 w-auto sm:h-10" />
+              {/* <ChanhDaiWordmark className="h-6 w-auto sm:h-10" /> */}
+              <img
+                src="/assets/brand.svg"
+                alt=""
+                className="h-6 w-auto sm:h-10"
+              />
             </div>
           </div>
         </div>
